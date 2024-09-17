@@ -1,0 +1,1282 @@
+Response from `UsageMeteringApi.GetEstimatedCostByOrg` Current month:
+{
+  "data": [
+    {
+      "attributes": {
+        "account_name": "THECOO株式会社",
+        "account_public_id": "d949d60a-5b74-11ee-98c8-da7ad0900005",
+        "charges": [
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "apm_fargate"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "apm_fargate"
+          },
+          {
+            "charge_type": "total",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "apm_fargate"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "apm_host"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 475.44,
+            "last_aggregation_function": "sum",
+            "product_name": "apm_host"
+          },
+          {
+            "charge_type": "total",
+            "cost": 475.44,
+            "last_aggregation_function": "sum",
+            "product_name": "apm_host"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "apm_host_no_usm"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "apm_host_no_usm"
+          },
+          {
+            "charge_type": "total",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "apm_host_no_usm"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "apm_trace_search"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 213.79,
+            "last_aggregation_function": "sum",
+            "product_name": "apm_trace_search"
+          },
+          {
+            "charge_type": "total",
+            "cost": 213.79,
+            "last_aggregation_function": "sum",
+            "product_name": "apm_trace_search"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": null,
+            "product_name": "audit_trail"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 110.0049,
+            "last_aggregation_function": null,
+            "product_name": "audit_trail"
+          },
+          {
+            "charge_type": "total",
+            "cost": 110.0049,
+            "last_aggregation_function": null,
+            "product_name": "audit_trail"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "ci_pipeline"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "ci_pipeline"
+          },
+          {
+            "charge_type": "total",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "ci_pipeline"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "ci_testing"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "ci_testing"
+          },
+          {
+            "charge_type": "total",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "ci_testing"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "cloud_cost_management"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "cloud_cost_management"
+          },
+          {
+            "charge_type": "total",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "cloud_cost_management"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "csm_host_pro"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "csm_host_pro"
+          },
+          {
+            "charge_type": "total",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "csm_host_pro"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "data_stream_monitoring"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "data_stream_monitoring"
+          },
+          {
+            "charge_type": "total",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "data_stream_monitoring"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "dbm_host"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 522.06,
+            "last_aggregation_function": "sum",
+            "product_name": "dbm_host"
+          },
+          {
+            "charge_type": "total",
+            "cost": 522.06,
+            "last_aggregation_function": "sum",
+            "product_name": "dbm_host"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "dbm_normalized_queries"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "dbm_normalized_queries"
+          },
+          {
+            "charge_type": "total",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "dbm_normalized_queries"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "fargate_container"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "fargate_container"
+          },
+          {
+            "charge_type": "total",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "fargate_container"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "infra_container_excl_agent"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 85.83,
+            "last_aggregation_function": "sum",
+            "product_name": "infra_container_excl_agent"
+          },
+          {
+            "charge_type": "total",
+            "cost": 85.83,
+            "last_aggregation_function": "sum",
+            "product_name": "infra_container_excl_agent"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "infra_host"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 359.88,
+            "last_aggregation_function": "sum",
+            "product_name": "infra_host"
+          },
+          {
+            "charge_type": "total",
+            "cost": 359.88,
+            "last_aggregation_function": "sum",
+            "product_name": "infra_host"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "ingested_spans"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "ingested_spans"
+          },
+          {
+            "charge_type": "total",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "ingested_spans"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "logs_forwarding"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "logs_forwarding"
+          },
+          {
+            "charge_type": "total",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "logs_forwarding"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "logs_indexed_15day"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 1029.31,
+            "last_aggregation_function": "sum",
+            "product_name": "logs_indexed_15day"
+          },
+          {
+            "charge_type": "total",
+            "cost": 1029.31,
+            "last_aggregation_function": "sum",
+            "product_name": "logs_indexed_15day"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "logs_ingested"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 75.3,
+            "last_aggregation_function": "sum",
+            "product_name": "logs_ingested"
+          },
+          {
+            "charge_type": "total",
+            "cost": 75.3,
+            "last_aggregation_function": "sum",
+            "product_name": "logs_ingested"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "netflow_monitoring"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "netflow_monitoring"
+          },
+          {
+            "charge_type": "total",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "netflow_monitoring"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "network_device"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "network_device"
+          },
+          {
+            "charge_type": "total",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "network_device"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "npm_host"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "npm_host"
+          },
+          {
+            "charge_type": "total",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "npm_host"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "prof_container"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "prof_container"
+          },
+          {
+            "charge_type": "total",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "prof_container"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "prof_host"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 233.51,
+            "last_aggregation_function": "sum",
+            "product_name": "prof_host"
+          },
+          {
+            "charge_type": "total",
+            "cost": 233.51,
+            "last_aggregation_function": "sum",
+            "product_name": "prof_host"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "rum_lite"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "rum_lite"
+          },
+          {
+            "charge_type": "total",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "rum_lite"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "rum_replay"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "rum_replay"
+          },
+          {
+            "charge_type": "total",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "rum_replay"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "serverless_apm"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "serverless_apm"
+          },
+          {
+            "charge_type": "total",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "serverless_apm"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "serverless_apps"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 542.96,
+            "last_aggregation_function": "sum",
+            "product_name": "serverless_apps"
+          },
+          {
+            "charge_type": "total",
+            "cost": 542.96,
+            "last_aggregation_function": "sum",
+            "product_name": "serverless_apps"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "serverless_infra"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "serverless_infra"
+          },
+          {
+            "charge_type": "total",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "serverless_infra"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "siem"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "siem"
+          },
+          {
+            "charge_type": "total",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "siem"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "synthetics_api_tests"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 128.75,
+            "last_aggregation_function": "sum",
+            "product_name": "synthetics_api_tests"
+          },
+          {
+            "charge_type": "total",
+            "cost": 128.75,
+            "last_aggregation_function": "sum",
+            "product_name": "synthetics_api_tests"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "synthetics_app_testing"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "synthetics_app_testing"
+          },
+          {
+            "charge_type": "total",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "synthetics_app_testing"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "synthetics_browser_checks"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "synthetics_browser_checks"
+          },
+          {
+            "charge_type": "total",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "synthetics_browser_checks"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "timeseries"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "timeseries"
+          },
+          {
+            "charge_type": "total",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "timeseries"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "workflow_execution"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "workflow_execution"
+          },
+          {
+            "charge_type": "total",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "workflow_execution"
+          }
+        ],
+        "date": "2024-07-01T00:00:00Z",
+        "org_name": "THECOO株式会社",
+        "public_id": "d949d60a-5b74-11ee-98c8-da7ad0900005",
+        "region": "us",
+        "total_cost": 3776.835
+      },
+      "id": "f8d5e8c9380eb0c153601dc16c2e132ccefeac4785dd7b9cac50a38717c320f8",
+      "type": "cost_by_org"
+    }
+  ]
+}
+Response from `UsageMeteringApi.GetEstimatedCostByOrg` Current month:
+{
+  "data": [
+    {
+      "attributes": {
+        "account_name": "THECOO株式会社",
+        "account_public_id": "d949d60a-5b74-11ee-98c8-da7ad0900005",
+        "charges": [
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "apm_fargate"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "apm_fargate"
+          },
+          {
+            "charge_type": "total",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "apm_fargate"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "apm_host"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 585.96,
+            "last_aggregation_function": "sum",
+            "product_name": "apm_host"
+          },
+          {
+            "charge_type": "total",
+            "cost": 585.96,
+            "last_aggregation_function": "sum",
+            "product_name": "apm_host"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "apm_trace_search"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 287.98,
+            "last_aggregation_function": "sum",
+            "product_name": "apm_trace_search"
+          },
+          {
+            "charge_type": "total",
+            "cost": 287.98,
+            "last_aggregation_function": "sum",
+            "product_name": "apm_trace_search"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": null,
+            "product_name": "audit_trail"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 127.8138,
+            "last_aggregation_function": null,
+            "product_name": "audit_trail"
+          },
+          {
+            "charge_type": "total",
+            "cost": 127.8138,
+            "last_aggregation_function": null,
+            "product_name": "audit_trail"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "ci_pipeline"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "ci_pipeline"
+          },
+          {
+            "charge_type": "total",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "ci_pipeline"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "ci_testing"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "ci_testing"
+          },
+          {
+            "charge_type": "total",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "ci_testing"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "cloud_cost_management"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "cloud_cost_management"
+          },
+          {
+            "charge_type": "total",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "cloud_cost_management"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "csm_host_pro"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "csm_host_pro"
+          },
+          {
+            "charge_type": "total",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "csm_host_pro"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "data_stream_monitoring"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "data_stream_monitoring"
+          },
+          {
+            "charge_type": "total",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "data_stream_monitoring"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "dbm_host"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 522.62,
+            "last_aggregation_function": "sum",
+            "product_name": "dbm_host"
+          },
+          {
+            "charge_type": "total",
+            "cost": 522.62,
+            "last_aggregation_function": "sum",
+            "product_name": "dbm_host"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "dbm_normalized_queries"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "dbm_normalized_queries"
+          },
+          {
+            "charge_type": "total",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "dbm_normalized_queries"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "fargate_container"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "fargate_container"
+          },
+          {
+            "charge_type": "total",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "fargate_container"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "infra_container_excl_agent"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 162.65,
+            "last_aggregation_function": "sum",
+            "product_name": "infra_container_excl_agent"
+          },
+          {
+            "charge_type": "total",
+            "cost": 162.65,
+            "last_aggregation_function": "sum",
+            "product_name": "infra_container_excl_agent"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "infra_host"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 405.27,
+            "last_aggregation_function": "sum",
+            "product_name": "infra_host"
+          },
+          {
+            "charge_type": "total",
+            "cost": 405.27,
+            "last_aggregation_function": "sum",
+            "product_name": "infra_host"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "ingested_spans"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "ingested_spans"
+          },
+          {
+            "charge_type": "total",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "ingested_spans"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "logs_forwarding"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "logs_forwarding"
+          },
+          {
+            "charge_type": "total",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "logs_forwarding"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "logs_indexed_15day"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 1183.22,
+            "last_aggregation_function": "sum",
+            "product_name": "logs_indexed_15day"
+          },
+          {
+            "charge_type": "total",
+            "cost": 1183.22,
+            "last_aggregation_function": "sum",
+            "product_name": "logs_indexed_15day"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "logs_ingested"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 76.5,
+            "last_aggregation_function": "sum",
+            "product_name": "logs_ingested"
+          },
+          {
+            "charge_type": "total",
+            "cost": 76.5,
+            "last_aggregation_function": "sum",
+            "product_name": "logs_ingested"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "netflow_monitoring"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "netflow_monitoring"
+          },
+          {
+            "charge_type": "total",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "netflow_monitoring"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "network_device"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "network_device"
+          },
+          {
+            "charge_type": "total",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "network_device"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "npm_host"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "npm_host"
+          },
+          {
+            "charge_type": "total",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "npm_host"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "prof_container"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "prof_container"
+          },
+          {
+            "charge_type": "total",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "prof_container"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "prof_host"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 326.76,
+            "last_aggregation_function": "sum",
+            "product_name": "prof_host"
+          },
+          {
+            "charge_type": "total",
+            "cost": 326.76,
+            "last_aggregation_function": "sum",
+            "product_name": "prof_host"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "rum_lite"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "rum_lite"
+          },
+          {
+            "charge_type": "total",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "rum_lite"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "rum_replay"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "rum_replay"
+          },
+          {
+            "charge_type": "total",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "rum_replay"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "serverless_apm"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "serverless_apm"
+          },
+          {
+            "charge_type": "total",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "serverless_apm"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "serverless_apps"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 580.6,
+            "last_aggregation_function": "sum",
+            "product_name": "serverless_apps"
+          },
+          {
+            "charge_type": "total",
+            "cost": 580.6,
+            "last_aggregation_function": "sum",
+            "product_name": "serverless_apps"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "serverless_infra"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 0.04,
+            "last_aggregation_function": "sum",
+            "product_name": "serverless_infra"
+          },
+          {
+            "charge_type": "total",
+            "cost": 0.04,
+            "last_aggregation_function": "sum",
+            "product_name": "serverless_infra"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "siem"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "siem"
+          },
+          {
+            "charge_type": "total",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "siem"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "synthetics_api_tests"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 128.86,
+            "last_aggregation_function": "sum",
+            "product_name": "synthetics_api_tests"
+          },
+          {
+            "charge_type": "total",
+            "cost": 128.86,
+            "last_aggregation_function": "sum",
+            "product_name": "synthetics_api_tests"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "synthetics_app_testing"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "synthetics_app_testing"
+          },
+          {
+            "charge_type": "total",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "synthetics_app_testing"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "synthetics_browser_checks"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "synthetics_browser_checks"
+          },
+          {
+            "charge_type": "total",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "synthetics_browser_checks"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "timeseries"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "timeseries"
+          },
+          {
+            "charge_type": "total",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "timeseries"
+          },
+          {
+            "charge_type": "committed",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "workflow_execution"
+          },
+          {
+            "charge_type": "on_demand",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "workflow_execution"
+          },
+          {
+            "charge_type": "total",
+            "cost": 0,
+            "last_aggregation_function": "sum",
+            "product_name": "workflow_execution"
+          }
+        ],
+        "date": "2024-08-01T00:00:00Z",
+        "org_name": "THECOO株式会社",
+        "public_id": "d949d60a-5b74-11ee-98c8-da7ad0900005",
+        "region": "us",
+        "total_cost": 4388.2734
+      },
+      "id": "277b00620411515c16b621326487365774f4c460fd9c9330a4a21a13a115918c",
+      "type": "cost_by_org"
+    }
+  ]
+}

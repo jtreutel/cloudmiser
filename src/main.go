@@ -1,11 +1,16 @@
-/*
-Copyright © 2024 NAME HERE <EMAIL ADDRESS>
-
-*/
 package main
 
-import "cloudmiser/cmd"
+import (
+	"fmt"
+
+	"github.com/jtreutel/costscript/ddcost"
+)
 
 func main() {
-	cmd.Execute()
+
+	ddDate, ddCost := ddcost.Execute()
+
+	ddDateStr := ddDate.Format("2006-01")
+
+	fmt.Printf("Datadog Costs for %s: %g", ddDateStr, ddCost)
 }
